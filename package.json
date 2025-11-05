@@ -1,12 +1,15 @@
 {
-  "name": "@celora/sdk",
+  "name": "celora",
   "version": "0.1.0",
   "description": "A lightweight and fully-typed TypeScript SDK for interacting with the Celora Payment API. This package provides an easy and reliable way to create payments and check their finalization status.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "build": "tsup"
   },
   "keywords": [
     "celora",
@@ -16,7 +19,9 @@
     "api"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "tsup": "^8.5.0"
+  },
   "devDependencies": {
     "typescript": "^5.3.3"
   }

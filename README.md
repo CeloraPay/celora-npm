@@ -1,4 +1,4 @@
-## @celora/sdk
+## celora
 
 A lightweight and fully-typed TypeScript SDK for interacting with the **Celora Payment API**.  
 This package provides an easy and reliable way to create payments and check their finalization status.
