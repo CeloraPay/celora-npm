@@ -18,13 +18,13 @@ This package provides an easy and reliable way to create payments and check thei
 ## Installation
 
 ```bash
-npm install @celora/sdk
+npm install celora
 ```
 
 or
 
 ```bash
-yarn add @celora/sdk
+yarn add celora
 ```
 
 ---
@@ -34,7 +34,7 @@ yarn add @celora/sdk
 Import and initialize the SDK with your API key and base API URL.
 
 ```ts
-import { Celora } from '@celora/sdk';
+import { Celora } from 'celora';
 
 const celora = new Celora('YOUR_API_KEY', 'https://api.celora.com');
 ```

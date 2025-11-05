@@ -1,6 +1,6 @@
 {
   "name": "celora",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight and fully-typed TypeScript SDK for interacting with the Celora Payment API. This package provides an easy and reliable way to create payments and check their finalization status.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
